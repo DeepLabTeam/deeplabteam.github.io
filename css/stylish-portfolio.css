@@ -29,6 +29,11 @@ body {
     font-weight: 700;
 }
 
+input.email {
+  width: 40%;
+  font-size: 18px;
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -227,6 +232,10 @@ hr.small {
 @media(max-width:768px) {
     .map {
         height: 75%;
+    }
+
+    input.email {
+      width: 65%;
     }
 }
 
